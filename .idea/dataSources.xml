@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2913039750">
+    <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.5.29" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="73a8d5c9-bd7b-430e-8011-d15ca6307084">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/cb_dozbu</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfcbdfcedfc7dfc3dfc4</user-password>
+      <schema-pattern>cb_dozbu.*</schema-pattern>
+      <default-dialect>MySQL</default-dialect>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Documents/mysqlforphpstorm/mysql-connector-java-5.1.26-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

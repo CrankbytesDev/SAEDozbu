@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.5.29" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="73a8d5c9-bd7b-430e-8011-d15ca6307084">
+    <extra-name-characters>#@</extra-name-characters>
+    <identifier-quote-string>`</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+    <jdbc-url>jdbc:mysql://localhost:3306/cb_dozbu</jdbc-url>
+    <user-name>root</user-name>
+    <user-password>dfcbdfcedfc7dfc3dfc4</user-password>
+    <schema-pattern>cb_dozbu.*</schema-pattern>
+    <default-dialect>MySQL</default-dialect>
+    <libraries>
+      <library>
+        <url>file://$USER_HOME$/Documents/mysqlforphpstorm/mysql-connector-java-5.1.26-bin.jar</url>
+      </library>
+    </libraries>
+    <schema name="" catalog="cb_dozbu"/>
+    <table name="lecturers" schema="" catalog="cb_dozbu" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="255" precision="0" nullable="false" jdbcType="12"/>
+      <column name="street" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="postcode" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="city" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="ba" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="mph" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="date" sqlType="DATE" length="10" precision="0" nullable="false" jdbcType="91"/>
+      <column name="counter" sqlType="BIGINT" length="19" precision="0" nullable="false" jdbcType="-5" def="MQ=="/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <index name="name" unique="true" columns="name"/>
+      <index name="name_2" unique="true" columns="name"/>
+      <index name="name_UNIQUE" unique="true" columns="name"/>
+    </table>
+    <table name="lectures" schema="" catalog="cb_dozbu" type="TABLE">
+      <column name="id_b" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="course" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="subject" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="class" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="chapter" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="teacher" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="location" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="date" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="time" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="duration" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="content" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="att_type" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="material" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id_b"/>
+      <index name="date_UNIQUE" unique="true" columns="date"/>
+    </table>
+    <table name="users" schema="" catalog="cb_dozbu" type="TABLE">
+      <column name="id" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
+      <column name="status" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+  </data-source>
+</component>
